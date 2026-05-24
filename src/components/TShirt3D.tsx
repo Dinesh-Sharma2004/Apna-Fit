@@ -83,10 +83,11 @@ export default function TShirt3D({ imageSrc, name }: TShirt3DProps) {
       {/* Heavy shadow mapping beneath the clothing pedestal */}
       <motion.div
         className="absolute bottom-6 w-4/5 h-8 bg-secondary/25 rounded-full blur-xl pointer-events-none"
+        animate={{ scale: isHovered ? 1.05 : 0.95 }}
+        transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         style={{
           x: shadowX,
           y: shadowY,
-          scale: isHovered ? 1.05 : 0.95,
         }}
       />
 
@@ -96,18 +97,22 @@ export default function TShirt3D({ imageSrc, name }: TShirt3DProps) {
       {/* Structured Apparel Model Container */}
       <motion.div
         className="relative w-full h-full flex items-center justify-center pointer-events-none"
+        animate={{ scale: isHovered ? 1.04 : 1 }}
+        transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         style={{
           rotateX: springX,
           rotateY: springY,
-          scale: isHovered ? 1.04 : 1,
           transformStyle: "preserve-3d",
         }}
-        transition={{ type: "spring", stiffness: 100, damping: 20 }}
       >
-        <img
+        <motion.img
+          key={imageSrc}
+          initial={{ scale: 0.85, opacity: 0, filter: "blur(12px) drop-shadow(0 15px 30px rgba(0,0,0,0.85))" }}
+          animate={{ scale: 1, opacity: 1, filter: "blur(0px) drop-shadow(0 15px 30px rgba(0,0,0,0.85))" }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           src={imageSrc}
           alt={name}
-          className="w-full h-full object-contain filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.85)] brightness-110 contrast-110 grayscale-[15%] transition-all duration-300"
+          className="w-full h-full object-contain brightness-110 contrast-110 grayscale-[15%]"
           draggable="false"
         />
 

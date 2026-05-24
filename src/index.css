@@ -94,12 +94,7 @@ html, body { -ms-overflow-style: none; scrollbar-width: none; }
   will-change: transform, box-shadow;
 }
 
-.glass-card:hover {
-  background: rgba(232, 221, 207, 0.68);
-  border-color: rgba(17, 17, 17, 0.18);
-  box-shadow: 0 32px 64px rgba(17, 17, 17, 0.08), 0 8px 24px rgba(17, 17, 17, 0.04);
-  transform: translateY(-10px);
-}
+
 
 /* Prevent glass-card hover from fighting archive card inline styles */
 .archive-card {

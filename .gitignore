@@ -6,3 +6,12 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# VS Code Local History extension
+.history/
+
+# Misc excluded folders
+.sixth/
+
+# Animation frames (large binary assets — keep local only)
+final_frame/
