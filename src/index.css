@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300;400;500;600;700&family=Geist:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary-fixed: #f4e2c7;
+  --color-on-surface: #111111;
+  --color-on-primary-fixed-variant: #7c674f;
+  --color-secondary-fixed: #d49d56;
+  --color-surface-container: #ead8bd;
+  --color-surface-container-high: #dfc8a8;
+  --color-surface-bright: #fff7ea;
+  --color-surface-tint: #c58a3a;
+  --color-on-surface-variant: #444444;
+  --color-error: #ef4444;
+  --color-error-container: #fee2e2;
+  --color-inverse-on-surface: #fff8ec;
+  --color-outline: #8f7659;
+  --color-on-background: #111111;
+  --color-on-secondary: #fff8ec;
+  --color-background: #E8DDCF;
+  --color-secondary-container: #f0d4ad;
+  --color-on-primary-fixed: #332414;
+  --color-primary: #6f4d2a;
+  --color-primary-container: #f0ddbf;
+  --color-on-tertiary-container: #6f5b45;
+  --color-tertiary: #7d8160;
+  --color-on-secondary-fixed: #332414;
+  --color-secondary: #8a5a24;
+  --color-outline-variant: #c8ad88;
+  --color-inverse-surface: #111111;
+  --color-on-error-container: #fee2e2;
+  --color-on-tertiary-fixed-variant: #7b715d;
+  --color-surface-container-highest: #d4b78f;
+  --color-surface-container-lowest: #fff8ec;
+  --color-on-tertiary: #fff8ec;
+  --color-on-secondary-fixed-variant: #6f5b45;
+  --color-primary-fixed-dim: #e4caa5;
+  --color-tertiary-fixed-dim: #c9c99f;
+  --color-surface-dim: #e8d7bf;
+  --color-on-error: #ffffff;
+  --color-on-tertiary-fixed: #30251a;
+  --color-surface: #f0e0c6;
+  --color-tertiary-container: #dde0bc;
+  --color-surface-variant: #e7d1b2;
+  --color-secondary-fixed-dim: #bd8238;
+  --color-inverse-primary: #f3d39d;
+  --color-surface-container-low: #f7ecd9;
+  --color-on-secondary-container: #111111;
+  --color-on-primary-container: #111111;
+  --color-on-primary: #fff8ec;
+  --color-tertiary-fixed: #eef0cb;
+
+  --font-display-lg: "Cinzel", serif;
+  --font-label-caps: "Cinzel", serif;
+  --font-headline-lg-mobile: "Cinzel", serif;
+  --font-headline-lg: "Cinzel", serif;
+  --font-display-xl: "Cinzel", serif;
+  --font-body-lg: "Playfair Display", serif;
+  --font-body-md: "Playfair Display", serif;
+}
+
+/* ─── Base resets & scroll behavior ─── */
+html {
+  scroll-behavior: auto; /* Disable native smooth scroll — we handle it manually */
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #E8DDCF;
+  color: #111111;
+  overflow-x: hidden;
+}
+
+/* Scrollbar hidden globally */
+body::-webkit-scrollbar,
+html::-webkit-scrollbar,
+*::-webkit-scrollbar { display: none; }
+html, body { -ms-overflow-style: none; scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* ─── Glassmorphism Cards ─── */
+.glass-card {
+  background: rgba(232, 221, 207, 0.45);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  transition:
+    transform 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+    background 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, box-shadow;
+}
+
+.glass-card:hover {
+  background: rgba(232, 221, 207, 0.68);
+  border-color: rgba(17, 17, 17, 0.18);
+  box-shadow: 0 32px 64px rgba(17, 17, 17, 0.08), 0 8px 24px rgba(17, 17, 17, 0.04);
+  transform: translateY(-10px);
+}
+
+/* Prevent glass-card hover from fighting archive card inline styles */
+.archive-card {
+  transition:
+    filter 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* ─── Gold Glow / Premium Shadow ─── */
+.gold-glow { box-shadow: 0 0 25px 2px rgba(138, 90, 36, 0.08); }
+.premium-shadow { box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05); }
+
+/* ─── Reveal On Scroll (IntersectionObserver driven) ─── */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translate3d(0, 50px, 0) rotate(var(--reveal-rot, 0deg));
+  transition:
+    transform 1.4s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 1.4s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+.reveal-on-scroll.revealed {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) rotate(0deg);
+}
+
+/* Staggered delay variants for child reveals */
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.25s; }
+.reveal-delay-3 { transition-delay: 0.4s; }
+.reveal-delay-4 { transition-delay: 0.55s; }
+
+/* ─── Film Grain Overlay ─── */
+.film-grain {
+  position: fixed;
+  top: -50%; left: -50%;
+  right: -50%; bottom: -50%;
+  width: 200%; height: 200%;
+  background: transparent url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E') repeat;
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 999;
+  animation: grain-animation 8s steps(10) infinite;
+}
+
+@keyframes grain-animation {
+  0%,  100% { transform: translate(0, 0); }
+  10%  { transform: translate(-5%, -10%); }
+  20%  { transform: translate(-15%, 5%); }
+  30%  { transform: translate(7%, -25%); }
+  40%  { transform: translate(-5%, 25%); }
+  55%  { transform: translate(-15%, 10%); }
+  70%  { transform: translate(15%, 15%); }
+  80%  { transform: translate(3%, 35%); }
+  90%  { transform: translate(-10%, 10%); }
+}
+
+/* ─── Shimmer Button Effect ─── */
+.shimmer-trigger { position: relative; overflow: hidden; }
+
+.shimmer-layer {
+  position: absolute;
+  top: -50%; left: -50%;
+  width: 200%; height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 35%,
+    rgba(255, 255, 255, 0.22) 45%,
+    rgba(138, 90, 36, 0.12) 50%,
+    rgba(255, 255, 255, 0.22) 55%,
+    transparent 65%
+  );
+  pointer-events: none;
+  transform: translateX(-150%) translateY(-150%) rotate(45deg);
+  z-index: 10;
+  transition: transform 1s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.shimmer-trigger:hover .shimmer-layer {
+  transform: translateX(150%) translateY(150%) rotate(45deg);
+}
+
+/* ─── Shatter Typography ─── */
+.shatter-text { display: inline-block; cursor: default; }
+
+.shatter-text span {
+  display: inline-block;
+  transition: transform 0.9s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.9s ease, filter 0.9s ease;
+  will-change: transform, opacity, filter;
+}
+
+.shatter-text:hover span {
+  transform: translate(var(--dx, 0), var(--dy, 0)) rotate(var(--rot, 0deg));
+  opacity: 0.6;
+  filter: blur(1.5px);
+}
+
+/* ─── Section Transition Separators ─── */
+.section-separator {
+  position: relative;
+}
+.section-separator::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 5%; right: 5%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(17,17,17,0.12) 20%, rgba(17,17,17,0.12) 80%, transparent);
+}
+
+/* ─── Horizontal Catalog Row ─── */
+.catalog-row {
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* ─── Archive section freeze: hide scrollbar gap ─── */
+.archive-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* ─── Smooth product image zoom ─── */
+.product-img {
+  transition: transform 1.4s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+.product-img:hover,
+.group:hover .product-img {
+  transform: scale(1.06);
+}
+
+/* ─── Lookbook image hover ─── */
+.lookbook-img {
+  transition:
+    transform 1.4s cubic-bezier(0.16, 1, 0.3, 1),
+    filter 1.4s cubic-bezier(0.16, 1, 0.3, 1),
+    brightness 1.4s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, filter;
+}
+.group:hover .lookbook-img {
+  transform: scale(1.04);
+  filter: grayscale(0%) brightness(1.05);
+}
+
+/* ─── Cinematic section fade bleed ─── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in-up {
+  animation: fadeInUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+}

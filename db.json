@@ -1,0 +1,319 @@
+{
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "Bone Minimalist",
+      "price": 9900,
+      "currency": "INR",
+      "gsm": 400,
+      "fabric": "Heavyweight 100% Cotton",
+      "description": "Bespoke 400GSM cotton in a warm bone off-white layout. Premium minimal embroidery at the left crest.",
+      "longDescription": "The absolute standard of rugged luxury streetwear. Formulated with a structural oversized collar, customized dropped shoulder drape, and reinforced double-needle stitched seams. Preshrunk and enhanced with gold-ion dust finishing.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuC0LjigyUqFqUMhszKwl26dxTk8q6x3GFUFtvY8xyHWldmmxQeOXyMKBVx4KxR8JfIBzWhlwdYy27ZlQcO07iZ3PmtF6ySerOT0pVMEQ2dWq9qxOKeEu0eev_cv5X5y55VhgFeQlBIYOKTHgthV0evbBKndyXgsjEqi2DsWG8UqD4fPscSj4wMHMRyZI-xtq0Ib92loNi71H_cW0mHPA1pWv4IBGcy7Gk_Fx4BUge3R2HowscYG48GYvhwKMVD6Ze1-a8YVYn4gyvg",
+      "images": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuC0LjigyUqFqUMhszKwl26dxTk8q6x3GFUFtvY8xyHWldmmxQeOXyMKBVx4KxR8JfIBzWhlwdYy27ZlQcO07iZ3PmtF6ySerOT0pVMEQ2dWq9qxOKeEu0eev_cv5X5y55VhgFeQlBIYOKTHgthV0evbBKndyXgsjEqi2DsWG8UqD4fPscSj4wMHMRyZI-xtq0Ib92loNi71H_cW0mHPA1pWv4IBGcy7Gk_Fx4BUge3R2HowscYG48GYvhwKMVD6Ze1-a8YVYn4gyvg",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuA-Evnd4oyFSHMVTTeKka1-3PUPfd0_dp5_txY5tplMcivgu2HJVBdF4_uQi7sto_z9RZQB7SBzUWS9pz6Zxv3s4YBNBJ0CapsBHGyl9lpixik0FMrKlpuumUJQe0Rn0iykMYpC7EOglorfyLMnKUhs8-ghweKnX2uGOEU-75tkodoWlv5S5fNm5XxRafRXnDmVrO3nnfPoakdqMHjhsj9-DEdd1E960mTJHKnrKHUPuJYWZFZVezj6Hew-fm0QVjSCFAdt-dLuPkw"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 11,
+      "rating": 4.9,
+      "category": "Heavyweight Tee",
+      "features": [
+        "400GSM Heavyweight cotton",
+        "Oversized structural fit",
+        "Gold-ion yarn coating",
+        "Clean Bone shade"
+      ]
+    },
+    {
+      "id": "prod-002",
+      "name": "Obsidian Gold",
+      "price": 11900,
+      "currency": "INR",
+      "gsm": 420,
+      "fabric": "Interlock French Terry",
+      "description": "Midnight deep black canvas showcasing an embossed gold-foil geometric collar and sleeve insignia.",
+      "longDescription": "Engineered specifically to demand absolute attention without making a sound. Features high-density metallic weave on heavy 420GSM luxury French Terry cotton, granting an rich matte structure and smooth thermal breathing.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCEQOYPc9CwKelOQRVh0AKSjdBhyapoMlBz34Ovau0-fMl1HM718kv-564vB4fNr7KhsQ2O15gKj5QXXM4aDcjGgCgo5LO8KVRQo_nPae54Cfgcrv0jSpO40x2Kc5s55ekQFDyVuuEbW2FrTAbFyiYv-Rit7xmRxnKSW39L-mc8EYsFwHa71qDPZS9o_sXycBKmai9DDi1DjSjE9_YTGpcT9RJPijDPxEuoTkTs3w74x7RNKDXJtqOU_2rlaDI9ywkMrgsRQkQ7chY",
+      "images": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCEQOYPc9CwKelOQRVh0AKSjdBhyapoMlBz34Ovau0-fMl1HM718kv-564vB4fNr7KhsQ2O15gKj5QXXM4aDcjGgCgo5LO8KVRQo_nPae54Cfgcrv0jSpO40x2Kc5s55ekQFDyVuuEbW2FrTAbFyiYv-Rit7xmRxnKSW39L-mc8EYsFwHa71qDPZS9o_sXycBKmai9DDi1DjSjE9_YTGpcT9RJPijDPxEuoTkTs3w74x7RNKDXJtqOU_2rlaDI9ywkMrgsRQkQ7chY",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDcbqECRWm80A9EJ3ywBsQd5oj9tYFpEI6l2GOU9AJylr4OjX7BETLHeU6oIUXi0X9_bCrIltSAF4aGC4l0-9DMn8lQUEp-GJS4jB0AhjhmsZW_VM6uQKiIQPSBURXidFjWTrdqq2eVWOpfkte5u0twW9HGwo8DBtdlyASiBJ7yLIRNc6-cLUiZMAraMdfkkUG6fLCJtVpaBEBcaFa28CwoK4TA-jT4Bye8VcuodPRTAZxkbZZBkZa_Qw8oiqV0H9GdBCuErzm0zv8"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "stock": 7,
+      "rating": 5,
+      "category": "Metallic Luxe",
+      "features": [
+        "420GSM Luxury Terry",
+        "Metallic Gold insignia",
+        "Seamless shoulder drape",
+        "Matte Black premium tone"
+      ]
+    },
+    {
+      "id": "prod-003",
+      "name": "Desert Sage",
+      "price": 9900,
+      "currency": "INR",
+      "gsm": 400,
+      "fabric": "Organic Heavyweight Pique",
+      "description": "An elegant, muted sage-green layout providing a tranquil, architectural drape with drop-shoulder silhouette.",
+      "longDescription": "The definitive minimal wardrobe anchor. Ethically-harvested organic desert pique weave, granting subtle physical texture while showcasing exceptional breathability. Embossed tone-on-tone stamp at the lower hem.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAS4wnWjNFdlfDF6CCJNh4upaKC9JXGJmLyDi26WTxUklpFh2GMz9u6U1kdmwHWSHAPvbK_C52dBiFxjtFLFoN38LwVSUpt13jgm6pT18OcqYNCpvFYXfn_18CciiMKiRFAC8XGWGg0rJUUc46XNbNcQFHGTVMXHKZvJR7F0mCuIp_M1j3xqTiXygC1tMeLBDwMqQkQNtSJq1gpvRrmEBZOeA4xOMdp_x_QvjLlUHDaZ_j7s-fzjxQYhTA-_pn9CAoMAACJAHjiE1E",
+      "images": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuAS4wnWjNFdlfDF6CCJNh4upaKC9JXGJmLyDi26WTxUklpFh2GMz9u6U1kdmwHWSHAPvbK_C52dBiFxjtFLFoN38LwVSUpt13jgm6pT18OcqYNCpvFYXfn_18CciiMKiRFAC8XGWGg0rJUUc46XNbNcQFHGTVMXHKZvJR7F0mCuIp_M1j3xqTiXygC1tMeLBDwMqQkQNtSJq1gpvRrmEBZOeA4xOMdp_x_QvjLlUHDaZ_j7s-fzjxQYhTA-_pn9CAoMAACJAHjiE1E",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBSO9U9uyIMy42hG6uSsaICEGnsq1WL6qFQCZJuFiUd3nzJYXCHWn5ehFfqS7AdGDCAqzy1vjxc_uEJA-wxQFQeN1MX5j_Vy0cgk-2jObsFyIYp0ARtMQhlmnEz5fONOPcy5qTIqK5JjCrCaaLMOcAO1zkj_QVeVj6Cox4QI1w_1h7y3-yCjeCRWhtZO71rjHV6Szfn2cFP2dPPUwvecD8DVCV5lb8r6QXiXDEqif_Ierl4LIQsc36Kt5Zro4x6l6Ybe2oDdWSiQ88"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 15,
+      "rating": 4.8,
+      "category": "Heavyweight Tee",
+      "features": [
+        "400GSM Organic Pique",
+        "Architectural drape construct",
+        "Desert Sage dye process",
+        "Signature debossed hem stamp"
+      ]
+    },
+    {
+      "id": "prod-004",
+      "name": "Shadow Stealth",
+      "price": 12900,
+      "currency": "INR",
+      "gsm": 450,
+      "fabric": "Double Face Premium Cotton",
+      "description": "Double-layered structured streetwear tee in signature charcoal obsidian with invisible zipper side seam pockets.",
+      "longDescription": "A monumental achievement in practical fashion. Seamless side slits containing micro-zipper utility structures embedded in ultra-heavy 450GSM double-faced cotton. Perfect for streamlined, modular outfits.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA-Evnd4oyFSHMVTTeKka1-3PUPfd0_dp5_txY5tplMcivgu2HJVBdF4_uQi7sto_z9RZQB7SBzUWS9pz6Zxv3s4YBNBJ0CapsBHGyl9lpixik0FMrKlpuumUJQe0Rn0iykMYpC7EOglorfyLMnKUhs8-ghweKnX2uGOEU-75tkodoWlv5S5fNm5XxRafRXnDmVrO3nnfPoakdqMHjhsj9-DEdd1E960mTJHKnrKHUPuJYWZFZVezj6Hew-fm0QVjSCFAdt-dLuPkw",
+      "images": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuA-Evnd4oyFSHMVTTeKka1-3PUPfd0_dp5_txY5tplMcivgu2HJVBdF4_uQi7sto_z9RZQB7SBzUWS9pz6Zxv3s4YBNBJ0CapsBHGyl9lpixik0FMrKlpuumUJQe0Rn0iykMYpC7EOglorfyLMnKUhs8-ghweKnX2uGOEU-75tkodoWlv5S5fNm5XxRafRXnDmVrO3nnfPoakdqMHjhsj9-DEdd1E960mTJHKnrKHUPuJYWZFZVezj6Hew-fm0QVjSCFAdt-dLuPkw",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDBAtX-sgt85LVz8QmmcndKJ76QoLtyo4KVRPG4ja7VUv8qaVVfKDSBhemA_QlKlTnHM0_cjcY61MQA7BX62NkvLPQKhJL-QCGQch5LiyUhLpRKRv_325RsZpM_dmmmMuLdRx05sKm79a38ndrMONGlEjOmekl_sL-Tb3b56k0WMl7EVVgdSgYB6Bvt0isqKoeQMx-tRSSSDxgurAPkYHtGQWP2cg5nCsf6Os5Wf_YzO5pVdi-eOCYp2O9B6xhR8K8GwzrAQl2H1aY"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 5,
+      "rating": 4.9,
+      "category": "Tactical Luxe",
+      "features": [
+        "450GSM Double Faced Cotton",
+        "Invisible technical zipper slots",
+        "Oversized drop-neck trim",
+        "Structured structural drape"
+      ]
+    },
+    {
+      "id": "prod-005",
+      "name": "Ecru Structured",
+      "price": 8900,
+      "currency": "INR",
+      "gsm": 420,
+      "fabric": "Bespoke Heavy Rib",
+      "description": "Heavyweight structured organic ecru cotton drape featuring drop-shoulder silhouettes and tight knit crewneck.",
+      "longDescription": "The ultimate everyday statement piece, tailored in bespoke heavy 420GSM structural organic rib cotton. Preshrunk and enhanced with double-needle locked hems to hold its elegant dropped shoulder silhouette eternally.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuC0LjigyUqFqUMhszKwl26dxTk8q6x3GFUFtvY8xyHWldmmxQeOXyMKBVx4KxR8JfIBzWhlwdYy27ZlQcO07iZ3PmtF6ySerOT0pVMEQ2dWq9qxOKeEu0eev_cv5X5y55VhgFeQlBIYOKTHgthV0evbBKndyXgsjEqi2DsWG8UqD4fPscSj4wMHMRyZI-xtq0Ib92loNi71H_cW0mHPA1pWv4IBGcy7Gk_Fx4BUge3R2HowscYG48GYvhwKMVD6Ze1-a8YVYn4gyvg",
+      "images": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuC0LjigyUqFqUMhszKwl26dxTk8q6x3GFUFtvY8xyHWldmmxQeOXyMKBVx4KxR8JfIBzWhlwdYy27ZlQcO07iZ3PmtF6ySerOT0pVMEQ2dWq9qxOKeEu0eev_cv5X5y55VhgFeQlBIYOKTHgthV0evbBKndyXgsjEqi2DsWG8UqD4fPscSj4wMHMRyZI-xtq0Ib92loNi71H_cW0mHPA1pWv4IBGcy7Gk_Fx4BUge3R2HowscYG48GYvhwKMVD6Ze1-a8YVYn4gyvg"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 14,
+      "rating": 4.9,
+      "category": "Heavyweight Tee",
+      "features": [
+        "420GSM Heavyweight cotton",
+        "Bespoke organic Ecru dye",
+        "Heavy locked collar ribbing"
+      ]
+    },
+    {
+      "id": "prod-006",
+      "name": "Crimson Velour",
+      "price": 10900,
+      "currency": "INR",
+      "gsm": 400,
+      "fabric": "Brushed Cotton Terry",
+      "description": "Luxurious deep crimson velour cotton blend showcasing high-density double-needle side-slit constructs.",
+      "longDescription": "A plush brushed velour Terry finish that balances heavy structural density with warm, breathable insulation. Built with split drop-neck collar trims and invisible stitch structures.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCEQOYPc9CwKelOQRVh0AKSjdBhyapoMlBz34Ovau0-fMl1HM718kv-564vB4fNr7KhsQ2O15gKj5QXXM4aDcjGgCgo5LO8KVRQo_nPae54Cfgcrv0jSpO40x2Kc5s55ekQFDyVuuEbW2FrTAbFyiYv-Rit7xmRxnKSW39L-mc8EYsFwHa71qDPZS9o_sXycBKmai9DDi1DjSjE9_YTGpcT9RJPijDPxEuoTkTs3w74x7RNKDXJtqOU_2rlaDI9ywkMrgsRQkQ7chY",
+      "images": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCEQOYPc9CwKelOQRVh0AKSjdBhyapoMlBz34Ovau0-fMl1HM718kv-564vB4fNr7KhsQ2O15gKj5QXXM4aDcjGgCgo5LO8KVRQo_nPae54Cfgcrv0jSpO40x2Kc5s55ekQFDyVuuEbW2FrTAbFyiYv-Rit7xmRxnKSW39L-mc8EYsFwHa71qDPZS9o_sXycBKmai9DDi1DjSjE9_YTGpcT9RJPijDPxEuoTkTs3w74x7RNKDXJtqOU_2rlaDI9ywkMrgsRQkQ7chY"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "stock": 8,
+      "rating": 5.0,
+      "category": "Brushed Terry",
+      "features": [
+        "400GSM Velour Brushed Finish",
+        "Deep Crimson premium tint",
+        "Invisible seam stitch slots"
+      ]
+    },
+    {
+      "id": "prod-007",
+      "name": "Charcoal Minimal",
+      "price": 9500,
+      "currency": "INR",
+      "gsm": 450,
+      "fabric": "Double-Face Heavy knit",
+      "description": "Double-layer heavyweight tactical drape in premium charcoal tone with modular drop pockets.",
+      "longDescription": "A tactical streetwear addition utilizing double-knit 450GSM cotton constructs, integrated utility stitch margins, and structural hem splits that flow with absolute stability.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAS4wnWjNFdlfDF6CCJNh4upaKC9JXGJmLyDi26WTxUklpFh2GMz9u6U1kdmwHWSHAPvbK_C52dBiFxjtFLFoN38LwVSUpt13jgm6pT18OcqYNCpvFYXfn_18CciiMKiRFAC8XGWGg0rJUUc46XNbNcQFHGTVMXHKZvJR7F0mCuIp_M1j3xqTiXygC1tMeLBDwMqQkQNtSJq1gpvRrmEBZOeA4xOMdp_x_QvjLlUHDaZ_j7s-fzjxQYhTA-_pn9CAoMAACJAHjiE1E",
+      "images": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuAS4wnWjNFdlfDF6CCJNh4upaKC9JXGJmLyDi26WTxUklpFh2GMz9u6U1kdmwHWSHAPvbK_C52dBiFxjtFLFoN38LwVSUpt13jgm6pT18OcqYNCpvFYXfn_18CciiMKiRFAC8XGWGg0rJUUc46XNbNcQFHGTVMXHKZvJR7F0mCuIp_M1j3xqTiXygC1tMeLBDwMqQkQNtSJq1gpvRrmEBZOeA4xOMdp_x_QvjLlUHDaZ_j7s-fzjxQYhTA-_pn9CAoMAACJAHjiE1E"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 11,
+      "rating": 4.8,
+      "category": "Tactical Luxe",
+      "features": [
+        "450GSM Double-layer construct",
+        "Matte Charcoal slate dye",
+        "Seamless utility side slits"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-37545",
+      "userId": "guest",
+      "shippingAddress": {
+        "fullName": "Dinesh",
+        "email": "dineshsharma004785@gmail.com",
+        "phone": "8218297897",
+        "addressLine1": "House No. 254, Premnagar",
+        "addressLine2": "",
+        "city": "Dehradun",
+        "state": "Uttarakhand",
+        "postalCode": "248007"
+      },
+      "items": [
+        {
+          "productId": "prod-002",
+          "name": "Obsidian Gold",
+          "price": 11900,
+          "quantity": 1,
+          "size": "M"
+        }
+      ],
+      "subtotal": 11900,
+      "discountPercent": 0,
+      "couponCode": null,
+      "totalAmount": 11900,
+      "paymentMethod": "UPI_INTENT",
+      "paymentDetails": {
+        "upiId": "apnafit@paytm",
+        "transactionId": "TXN-7091771158"
+      },
+      "paymentStatus": "SUCCESS",
+      "orderStatus": "PREPARING",
+      "createdAt": "2026-05-23T05:11:10.156Z"
+    },
+    {
+      "id": "ORD-22246",
+      "userId": "guest",
+      "shippingAddress": {
+        "fullName": "Dinesh Sharma",
+        "email": "dineshsharma004785@gmail.com",
+        "phone": "8218297897",
+        "addressLine1": "House No. 254, Mitthi Beri, Premnagar",
+        "addressLine2": "",
+        "city": "Dehradun",
+        "state": "Uttarakhand",
+        "postalCode": "248007"
+      },
+      "items": [
+        {
+          "productId": "prod-001",
+          "name": "Bone Minimalist",
+          "price": 9900,
+          "quantity": 1,
+          "size": "M"
+        }
+      ],
+      "subtotal": 9900,
+      "discountPercent": 0,
+      "couponCode": null,
+      "totalAmount": 9900,
+      "paymentMethod": "UPI_QR",
+      "paymentDetails": {
+        "upiId": "apnafit@paytm",
+        "transactionId": "TXN-5621702415"
+      },
+      "paymentStatus": "SUCCESS",
+      "orderStatus": "PREPARING",
+      "createdAt": "2026-05-23T09:47:42.092Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "productId": "prod-001",
+      "userId": "user-1",
+      "userName": "Aarav Mehta",
+      "rating": 5,
+      "comment": "This is easily the thickest and most structured t-shirt I own. The collar holds its shape perfectly even after multiple washes. The bone white color is stunning.",
+      "createdAt": "2026-05-18T14:22:00Z"
+    },
+    {
+      "id": "rev-2",
+      "productId": "prod-002",
+      "userId": "user-2",
+      "userName": "Karan Johar",
+      "rating": 5,
+      "comment": "Premium materials indeed, the gold embossing shines beautifully in ambient light. Worth every single rupee. A masterpiece.",
+      "createdAt": "2026-05-19T09:15:00Z"
+    }
+  ],
+  "coupons": [
+    {
+      "code": "APNAFIT20",
+      "discountPercent": 20
+    },
+    {
+      "code": "QUIETAURITY",
+      "discountPercent": 15
+    }
+  ],
+  "users": [
+    {
+      "id": "user-admin",
+      "name": "APNAFIT Director",
+      "email": "admin@apnafit.com",
+      "role": "ADMIN"
+    }
+  ],
+  "cms": {
+    "heroTitle": "Wear Your Identity",
+    "heroSubtitle": "Explore Series 01",
+    "philosophyText": "In an era of disposable fashion, APNAFIT stands for permanent relevance. We craft each garment from bespoke 400GSM cotton, treated with gold-ion finishes."
+  }
+}

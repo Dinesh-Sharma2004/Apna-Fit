@@ -1,0 +1,8 @@
+{
+  "name": "APNAFIT",
+  "description": "High-performance, cinematic luxury wear for the quiet authority. Featuring interactive products, UPI payment flows, and curated lookbooks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
