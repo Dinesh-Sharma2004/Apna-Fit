@@ -47,7 +47,6 @@ The application is built on a monolithic structure for simplicity and rapid depl
    npm install
    ```
 3. Set up the environment variables. Rename `.env.example` to `.env.local` (or `.env`) and configure the following keys:
-   - `GEMINI_API_KEY`: API key for AI Studio (if applicable to features).
    - `ADMIN_API_KEY`: Secret key used to access the Admin Ledger Console (default: `dev-admin-key`).
    - `UPI_ID` and `UPI_MERCHANT_NAME`: Configures the UPI payment gateway deep link details.
    - `GMAIL_FROM`, `GMAIL_TO`, `GMAIL_ACCESS_TOKEN`: Configures the Gmail API for sending automated order and newsletter notifications.
