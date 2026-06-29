@@ -17,7 +17,7 @@ ApnaFit is a premium e-commerce web application focused on luxury clothing. It f
 The application is built on a monolithic structure for simplicity and rapid deployment:
 - **Frontend:** A React 19 application powered by Vite, providing an immersive UI utilizing Tailwind CSS v4, GSAP, and Framer Motion. 
 - **Backend:** A unified Express server (`server.ts`) that handles API requests, serves the frontend in production, and manages data.
-- **Database:** A lightweight, file-based JSON database (`db.json`) used for persistent storage of products, orders, coupons, reviews, and CMS configurations.(Only locally stores the data by creating db.json file, use mongodb or firebase)
+- **Database:** A lightweight, file-based JSON database (`db.json`) used for persistent storage of products, orders, coupons, reviews, and CMS configurations.(Only locally stores the data by creating db.json file, use mongodb or firebase for production or deployment)
 - **Integrations:** Supports UPI deep-link generation for seamless Indian payments and uses the Gmail API to send real-time order and newsletter notifications.
 
 ### Application Workflow
