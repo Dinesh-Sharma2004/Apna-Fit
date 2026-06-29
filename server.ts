@@ -384,23 +384,6 @@ if (normalizedCoupon) {
   };
 }
 
-// Setup Lazy-Initialized server side Google GenAI client
-let aiClient: GoogleGenAI | null = null;
-function getGeminiClient(): GoogleGenAI {
-  if (!aiClient) {
-    const key = process.env.GEMINI_API_KEY;
-    aiClient = new GoogleGenAI({
-      apiKey: key || "MOCK_KEY",
-      httpOptions: {
-        headers: {
-          'User-Agent': 'aistudio-build'
-        }
-      }
-    });
-  }
-  return aiClient;
-}
-
 // Ensure database folders or keys exist safely on memory
 function dbRefresh() {
   const current = getDB();
